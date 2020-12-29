@@ -18,7 +18,7 @@ void BubleSort(int arr[], int length)
 		}
 	}
 }
-wzj
+
 int main()
 {
 	ifstream in("test.txt");
