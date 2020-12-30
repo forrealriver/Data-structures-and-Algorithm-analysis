@@ -5,9 +5,7 @@
 using namespace std;
 
 int arr[100010];
-wzjaijq
-wzjaijq
-wzjaijq
+
 void BubleSort(int arr[], int length)
 {
 	for (int i = length - 1; i != 0; --i) {       //sort in decreasing order
