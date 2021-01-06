@@ -5,7 +5,6 @@
 using namespace std;
 
 int Max3(int a, int b,int c){
-    int max=0;
     if(a>=b){
         if(a>=c)
             return a;
