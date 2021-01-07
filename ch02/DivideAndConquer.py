@@ -10,10 +10,8 @@ def max3(a, b, c):
         else:
             return c
 
-
 def MaxSubsequenceSum(a, n):
     return MaxSubSum(a, 0, n-1)
-
 
 def MaxSubSum(a, left, right):
     MaxLeftSum = 0
