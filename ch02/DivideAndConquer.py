@@ -48,7 +48,5 @@ if __name__ == "__main__":
     n=int(input("how many do you want?"))
     for i in range(n):
         a.append(int(input()))
-    
     MaxSum=MaxSubsequenceSum(a,n)
-
     print(MaxSum)
