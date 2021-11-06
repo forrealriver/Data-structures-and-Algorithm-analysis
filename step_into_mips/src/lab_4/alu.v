@@ -23,11 +23,12 @@
 module alu(
 	input wire[31:0] a,b,
 	input wire[2:0] op,
-	output reg[31:0] y,
-	output reg overflow,
-	output wire zero
+	output reg[31:0] y
+	//output reg overflow,
+	//output wire zero
     );
-
+	wire zero;
+	reg overflow;
 	wire[31:0] s,bout;
 	assign bout = op[2] ? ~b : b;
 	assign s = a + bout + op[2];
