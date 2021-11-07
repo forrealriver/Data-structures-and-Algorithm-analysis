@@ -19,20 +19,23 @@ def find_verilog(source_path,f):
 
 
 if __name__ == '__main__':
-    opts, args = getopt.getopt(sys.argv[1:], "ho:")
+    opts, args = getopt.getopt(sys.argv[1:], "hi:o:")
     output_file = ""
+    source_path = ""
     for op, value in opts:
         if op == "-o":
             output_file = value
+        elif op == "-i":
+            source_path = value
         elif op == "-h":
-            print("-o output_file")
+            print("i input_path,-o output_file")
             sys.exit()
 
     with open(output_file, 'w') as f:
         print("open " + output_file)
         print("{0:*>20}".format("begin"))
         num_rtl_file = 0
-        source_path = os.getcwd()
+        #source_path = os.getcwd()
         find_verilog(source_path,f)
         print("RTL_FILE_NUMBER = "+ str(num_rtl_file))
         print("{0:*>20}".format("end"))

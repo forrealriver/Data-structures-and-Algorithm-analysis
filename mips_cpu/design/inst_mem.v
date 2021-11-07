@@ -5,7 +5,7 @@ module inst_mem(
 );
 reg [31:0] mem[63:0];
 always @(posedge clk)begin
-  inst = mem[pc];
+  instr = mem[pc];
 end
 
 initial begin
