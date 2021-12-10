@@ -1,17 +1,17 @@
-s=" "
-win = 0
-stringx = ""
-print(len(s))
-for i in range(len(s)):
-    if s[i] not in stringx:
-        stringx = stringx + s[i]
-    else:
-        if win < len(stringx):
-            win = len(stringx)
-        stringx = stringx[stringx.find(s[i])+1:] + s[i]
-if win < len(stringx):
-    win = len(stringx)
-print(win)
+def reverse(x: int) -> int:
+    print(x)
+    sig = 0
+    if x>2147483647 or x<-2147483648:
+        return  0
+    if x<0:
+        x=-x
+        sig = 1
+    s = str(x)
+    num = int(s[::-1])
 
-
-a,b,c,d=1,2,3,4
+    if sig:
+        num = -num
+    return num
+x = 1534236469
+print(2**31)
+print(reverse(x))
