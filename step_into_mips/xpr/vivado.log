@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Dec 11 10:18:58 2021
+# Process ID: 10352
+# Current directory: D:/git/step_into_mips/xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14312 D:\git\step_into_mips\xpr\lab_4.xpr
+# Log file: D:/git/step_into_mips/xpr/vivado.log
+# Journal file: D:/git/step_into_mips/xpr\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/git/step_into_mips/xpr/lab_4.xpr
+INFO: [Project 1-313] Project file moved from 'E:/System_skills/Labs/lab4/lab_4' since last save.
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'D:/git/step_into_mips/xpr/lab_4.ip_user_files', nor could it be found using path 'E:/System_skills/Labs/lab4/lab_4/lab_4.ip_user_files'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/adder.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/adder.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/alu.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/alu.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/aludec.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/aludec.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/controller.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/controller.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/datapath.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/datapath.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/eqcmp.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/eqcmp.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/flopenr.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/flopenr.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/flopenrc.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/flopenrc.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/flopr.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/flopr.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/floprc.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/floprc.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/hazard.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/hazard.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/maindec.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/maindec.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/mips.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/mips.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/mux2.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/mux2.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/mux3.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/mux3.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/pc.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/pc.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/regfile.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/regfile.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/signext.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/signext.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/sl2.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/sl2.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/rtl/top.v', nor could it be found using path 'E:/System_skills/Labs/lab4/rtl/top.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/coe/mipstest.coe', nor could it be found using path 'E:/System_skills/Labs/lab4/coe/mipstest.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/sim/testbench.v', nor could it be found using path 'E:/System_skills/Labs/lab4/sim/testbench.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/xpr/testbench_behav.wcfg', nor could it be found using path 'E:/System_skills/Labs/lab4/lab_4/testbench_behav.wcfg'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/xpr/lab_4.srcs/sources_1/ip/inst_mem/inst_mem.xci', nor could it be found using path 'E:/System_skills/Labs/lab4/lab_4/lab_4.srcs/sources_1/ip/inst_mem/inst_mem.xci'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/git/step_into_mips/xpr/lab_4.srcs/sources_1/ip/data_mem/data_mem.xci', nor could it be found using path 'E:/System_skills/Labs/lab4/lab_4/lab_4.srcs/sources_1/ip/data_mem/data_mem.xci'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'inst_mem_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'data_mem_synth_1' not found
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'inst_mem'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'data_mem'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+INFO: [Project 1-230] Project 'lab_4.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado2020p2/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 1088.859 ; gain = 0.000
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_runs synth_1 -jobs 8
+[Sat Dec 11 10:48:04 2021] Launched inst_mem_synth_1, data_mem_synth_1...
+Run output will be captured here:
+inst_mem_synth_1: D:/git/step_into_mips/xpr/lab_4.runs/inst_mem_synth_1/runme.log
+data_mem_synth_1: D:/git/step_into_mips/xpr/lab_4.runs/data_mem_synth_1/runme.log
+[Sat Dec 11 10:48:04 2021] Launched synth_1...
+Run output will be captured here: D:/git/step_into_mips/xpr/lab_4.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\git\step_into_mips\rtl\mips.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\git\step_into_mips\rtl\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\git\step_into_mips\rtl\controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\git\step_into_mips\rtl\mips.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\git\step_into_mips\rtl\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\git\step_into_mips\rtl\controller.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 11 19:56:45 2021...
