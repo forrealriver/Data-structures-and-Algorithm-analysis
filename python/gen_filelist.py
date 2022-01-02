@@ -3,7 +3,6 @@ import sys
 import re
 
 
-
 def find_verilog(source_path,f):
     list_path = os.listdir(source_path)
     if not list_path:
