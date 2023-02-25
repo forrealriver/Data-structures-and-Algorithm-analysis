@@ -1,0 +1,14 @@
+Login: #登录模块
+ login: #登录接口
+  url: /account/sLogin
+  method: POST
+Shop: #商铺模块
+ file_upload: #文件上传接口
+  url: s/file
+  method: POST
+ query: #查询接口
+  url: /shopping/myShop
+  method: GET
+ update: #编辑接口
+  url: /shopping/v2/updatemyfood
+  method: POST
